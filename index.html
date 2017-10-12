@@ -1,33 +1,56 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
-  <link rel="stylesheet" href="vendors/css/grid.css">
-  <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
-  <link rel="stylesheet" type="text/css" href="resources/css/style.css">
-  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lato:100,300,400,300italic">
-    <title>nntuyen home page</title>
-</head>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>nntuyen</title>
+    <meta name="description" content="nntuyen page" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="Codeply">
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/animate.min.css" />
+    <link rel="stylesheet" href="./css/ionicons.min.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <nav id="topNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
 
-<body>
-  <header>
-    <nav>
-      <div class="row">
-        <a href="#">
-          <img src="resources/img/nnt-games-logo.png" alt="nnt games logo" class="logo">
-        </a>
+                <a class="navbar-brand page-scroll" href="#first"><i class="ion-ios-flame-outline"></i> nntuyen</a>
+            </div>
 
-        <ul class="main-nav">
-          <li><a href="#">Home</a></li>
-          <li><a href="/khobeostudios">Game Studio</a></li>
-        </ul>
-      </div>
+            <div class="navbar-collapse collapse" id="bs-navbar">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a class="page-scroll" href="#one">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </nav>
 
-    <div class="hello-text">
-      <h1>Hi, I'm Tuyen</h1>
-    </div>
-  </header>
-</body>
+    <header id="first">
+        <div class="header-content">
+            <div class="inner">
+                <h1 class="cursive">Hi, I'm Tuyen</h1>
+                <h4>I love creation</h4>
 
+                <hr>
+                <a href="/khobeostudios" data-toggle="collapse" class="btn btn-primary btn-xl">Game Studio</a> &nbsp;
+            </div>
+        </div>
+    </header>
+
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/jquery.easing.min.js"></script>
+    <script src="./js/wow.js"></script>
+    <script src="./js/scripts.js"></script>
+  </body>
 </html>
