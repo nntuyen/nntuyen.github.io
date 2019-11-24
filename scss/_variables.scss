@@ -1,13 +1,31 @@
 /*font Variables*/
-$primary-font: 'Roboto', sans-serif;
+$rob: 'Roboto', sans-serif;
+$hee: 'Heebo', sans-serif;  
+
 
 /*Color Variables*/
-$primary-color  : #1345e6;
-$primary-color2 : #ed239f;
-$title-color    : #05364d;
-$text-color     : #797979;
-$offwhite       : #f8faff;
-$white          : #fff;
+$baseColor: #8490ff; 
+$dip: #222222;
+$pfont: #777777; 
+
 
 /*=================== fonts ====================*/
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Heebo:300,400,500,700|Roboto:300,400,500,700');
+
+// Mixins
+@mixin transition($property: all, $duration: 300ms, $animate: linear, $delay:0s){
+    transition: $property $duration $animate $delay; 
+}
+
+// Placeholder Mixins
+
+@mixin placeholder {
+  &.placeholder { @content; }
+  &:-moz-placeholder { @content; }
+  &::-moz-placeholder { @content; }
+  &::-webkit-input-placeholder { @content; }
+}
+
+
+
+

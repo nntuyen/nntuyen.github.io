@@ -16,25 +16,25 @@
 		line-height: 26px;
 		b{
 			font-weight: bold;
-			color: $primary-color;
+			color: $baseColor;
 		}
 		i{
-			color: $primary-color;
+			color: $baseColor;
 			font-style: italic;
 		}
 		sup{
-			color: $primary-color;
+			color: $baseColor;
 			font-style: italic;
 		}
 		sub{
-			color: $primary-color;
+			color: $baseColor;
 			font-style: italic;
 		}
 		del{
-			color: $primary-color;
+			color: $baseColor;
 		}
 		u{
-			color: $primary-color;
+			color: $baseColor;
 		}
 	}
 }
@@ -45,11 +45,11 @@
 .elements_button{
 	.title_color{
 		margin-bottom: 30px;
-		color: $title-color;
+		color: $dip;
 	}
 }
 .title_color{
-	color: $title-color;
+	color: $dip;
 }
 .button-group-area{
 	margin-top: 15px;
@@ -62,9 +62,12 @@
 	.theme_btn{
 		margin-right: 10px;
 	}
+	.white_btn{
+		margin-right: 10px;
+	}
 	.link{
 		text-decoration: underline;
-		color: $title-color;
+		color: $dip;
 		background: transparent;
 		&:hover{
 			color: #fff;
@@ -154,10 +157,10 @@
 }
 .link-border{
 	background: transparent;
-	border: 1px solid $primary-color;
-	color: $primary-color;
+	border: 1px solid $baseColor;
+	color: $baseColor;
 	&:before{
-		background: $primary-color;
+		background: $baseColor;
 	}
 }
 .radius{
@@ -1100,7 +1103,7 @@ h6 {
 }
 .single-defination{
 	h4{
-		color: $title-color;
+		color: $dip;
 	}
 }
 
