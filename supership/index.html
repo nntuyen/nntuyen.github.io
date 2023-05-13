@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+  <title>Supership</title>
+
+  <link rel="stylesheet" href="css/bulma.min.css" />
+  <link rel="stylesheet" href="css/jexcel.css" />
+  <link rel="stylesheet" href="css/jsuites.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <div class="container">
+    <div class="buttons mt-3">
+      <button class="button is-success" onclick="htmlTableToExcel('xlsx')">Tải File</button>
+    </div>
+    <div class="box frame">
+      <div id="spreadsheet"></div>
+    </div>
+  </div>
+
+  <script src="js/jquery.js"></script>
+  <script src="js/jexcel.js"></script>
+  <script src="js/jsuites.js"></script>
+  <script src="js/xlsx.full.min.js"></script>
+  <script src="js/dbProvinces.js"></script>
+  <script src="js/dbDistricts.js"></script>
+  <script src="js/dbWards.js"></script>
+  <script src="js/app.js"></script>
+</body>
+
+</html>

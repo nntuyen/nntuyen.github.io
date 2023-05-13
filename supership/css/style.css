@@ -1,0 +1,21 @@
+.frame {
+  overflow: scroll;
+  height: 500px;
+  padding: 0px;
+}
+
+.frame::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+
+.frame::-webkit-scrollbar:vertical {
+  width: 10px;
+}
+
+.frame::-webkit-scrollbar:horizontal {
+  height: 10px;
+}
+
+.frame::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, .5);
+}
